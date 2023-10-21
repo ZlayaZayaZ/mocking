@@ -1,0 +1,36 @@
+{
+  "name": "mocking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "lint": "eslint .",
+    "start": "jest",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZlayaZayaZ/mocking.git"
+  },
+  "author": "ZlayaZayaZ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZlayaZayaZ/mocking/issues"
+  },
+  "homepage": "https://github.com/ZlayaZayaZ/mocking#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.2",
+    "@babel/preset-env": "^7.23.2",
+    "eslint": "^8.51.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-jest": "^27.4.2",
+    "jest": "^29.7.0",
+    "jest-babel": "^1.0.1"
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "core-js": "^3.33.0"
+  }
+}
